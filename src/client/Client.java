@@ -1,8 +1,7 @@
 package client;
 
-
 import blockchain.Actions;
-import blockchain.Ledger;
+
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
