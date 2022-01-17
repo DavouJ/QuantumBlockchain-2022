@@ -1,4 +1,4 @@
-package blockchain;
+//package blockchain;
 
 
 import java.nio.charset.StandardCharsets;
@@ -22,6 +22,7 @@ public class Block {
         this.previousHash = previousHash;
         this.payment = payment;
         this.timeStamp = timeStamp;
+        this.receiverName = receiverName;
 
         transaction();
 

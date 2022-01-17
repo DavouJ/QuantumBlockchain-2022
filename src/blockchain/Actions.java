@@ -1,4 +1,4 @@
-package blockchain;
+//package blockchain;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

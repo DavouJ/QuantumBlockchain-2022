@@ -1,16 +1,17 @@
-package client;
-
-import blockchain.Actions;
+package client;//package blockchain;
 
 
-import java.rmi.RemoteException;
+//import blockchain.Actions;
+//import blockchain.Block;
+
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
 
-public class Client {
+public class  Client {
 
-    private Actions ledger = null;
+    Actions ledger = null;
+    Block action = null;
 
     public Client() {
         try{
