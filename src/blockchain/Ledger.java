@@ -71,11 +71,10 @@ public class Ledger implements Actions {
 
     @Override
     public String getBlockUsers() throws RemoteException{
-        String names = null;
-        for (int i = 0; i < blockChain.size(); i++){
-            names = names + i + ". " + blockChain.get(i).getSenderName() + "\n";
+        String names= "0. Genesis\n";
+        for (int i = 1; i < blockChain.size()+1; i++){
+            names = names + i + ". " + blockChain.get(i-1).getSenderName() + "\n";
         }
-
         return names;
     }
 

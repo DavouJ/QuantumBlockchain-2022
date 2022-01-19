@@ -1,5 +1,3 @@
-package client;//package blockchain;
-
 
 //import blockchain.Actions;
 //import blockchain.Block;
@@ -35,17 +33,23 @@ public class  Client {
         try {
             System.out.println("Who would you like to send money to?:");
             String names = ledger.getBlockUsers();
+            System.out.println(names);
             System.out.println("________________");
             String senderName = scan.nextLine();
         } catch (Exception e){
             System.err.println("Couldn't retrieve names:");
             e.printStackTrace();
         }
+        try {
+            System.out.println("How much money would you like to send?");
+            System.out.println("________________");
+            int amount = scan.nextInt();
+        } catch (Exception e){
+            System.err.println("Enter valid amount");
+            e.printStackTrace();
+        }
+
     }
-
-
-
-
 
     public static void main(String[] args){
 

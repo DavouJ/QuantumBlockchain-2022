@@ -23,6 +23,7 @@ public class Block {
         this.payment = payment;
         this.timeStamp = timeStamp;
         this.receiverName = receiverName;
+        this.senderName = senderName;
 
         transaction();
 
