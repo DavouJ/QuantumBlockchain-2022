@@ -1,4 +1,10 @@
 ## Running Blockchain - Windows10
+
+This is a simple ledger program intended to replicate the bitcoin blockchain.
+Using the JQuantum library (https://github.com/chasenorman/JQuantum#jquantum), I demonstrated how quantum technology can decrypt RSA keys (on a small scale).
+I replaced the normally used SHA256 encryption with RSA for each hash and used shor's algorithm to mine.
+This is quite impractical, but was a fun way to demonstrate the ccapabilites of quantum computing and shor's algorithm in decyphering prime factors. 
+
 This program is to be ran in terminal
 
 Open up 3 tabs:
