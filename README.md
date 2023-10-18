@@ -7,10 +7,10 @@ First tab -
 Firstly create a `rmiregistry` in the src directory
 
 Second tab -
-Then start the server begin by writing this line:
+Then start the server begin by writing this line in the src directory:
 - `javac -cp "../jQuantum-2.3.1.jar;../src" *.java`: compiles all files
 
-Then run the server by writing this line
+Then run the server by writing this line in the src directory:
 - `java -cp "../jQuantum-2.3.1.jar;../src" Ledger.java`: run the server
 
 Third tab -
